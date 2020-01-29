@@ -1,0 +1,93 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/*Map content Section Start*/
+.section-padding {
+  padding: 80px 0;
+}
+.section-padding.map-bg {
+  background-color: #34394f;
+  color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 100px;
+}
+.section-title {
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.section-info {
+  font-size: 110%;
+  line-height: 2.1;
+  margin-top: 7px;
+  color: #ddd;
+}
+.section-info p:last-child {
+  margin-bottom: 0;
+}
+.section-info strong {
+  color: #fff;
+}
+.location-direction {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 50px;
+}
+.location-direction li h3 {
+  color: #cd9540;
+  font-size: 35px;
+  font-weight: 400;
+}
+.location-direction li h3 span {
+  font-size: 28px;
+}
+.location-direction li p {
+  opacity: .5;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.location-direction li {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+}
+.location-direction li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100px;
+  background-color: #fff;
+  opacity: .1;
+}
+.location-direction li:last-child:after {
+  display: none;
+}
+.map {
+  margin-bottom: -80px;
+  box-shadow: 0px 0px 8px #000;
+}
+.location-direction li:last-child {
+  margin-bottom: 10px;
+}
+/*Map content Section Stop*/
